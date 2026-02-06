@@ -1,6 +1,6 @@
 import { useEffect, useState, type ChangeEvent } from "react"
 import { useLocation, useParams } from "react-router"
-import { binToDeci, binToHex, deciToBin, deciToHex, deciToOct, hexToBin, hexToDeci, octToDeci } from "../utils/conventors";
+import { binToDeci, binToHex, deciToBin, deciToHex, deciToOct, hexToBin, hexToDeci, octToDeci } from "../../utils/conventors";
 
 type inputFieldType = {
   value1: string,

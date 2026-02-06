@@ -2,7 +2,7 @@ import { Divider, Fab, IconButton } from "@mui/material";
 import { useEffect, useState, type ChangeEvent } from "react";
 import AddIcon from '@mui/icons-material/Add';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { binToDeci, deciToBin } from "../utils/conventors";
+import { binToDeci, deciToBin } from "../../utils/conventors";
 
 export default function SumBinaria() {
     const [valueField, setValueField] = useState<Array<string[]>>([['',''],['','']])
